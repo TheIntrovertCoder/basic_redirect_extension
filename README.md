@@ -1,4 +1,4 @@
-### Note: I'm not experienced in building exntesions. This is for MY PERSONAL USE
+### NOTE: I'm not experienced in building extensions. This is for MY PERSONAL USE
 ### All instance links are hardcoded
 
 ##### WHat links does this redirect 
