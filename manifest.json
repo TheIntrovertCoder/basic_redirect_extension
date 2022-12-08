@@ -1,0 +1,25 @@
+{
+    "name": "simpleRedirect",
+    "description": "Redirect requests to open source alternatives.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["declarativeNetRequest"],
+    "host_permissions": [
+        "*://youtu.be/*",
+        "*://*.youtube.com/*",
+        "*://*.youtube-nocookie.com/*",
+        "*://*.reddit.com/*",
+        "*://v.redd.it/*",
+        "*://i.redd.it/*",
+        "*://*.google.com/*"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}
