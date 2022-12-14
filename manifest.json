@@ -10,7 +10,8 @@
         "*://youtu.be/*",
         "*://*.youtube.com/*",
         "*://*.youtube-nocookie.com/*",
-        "*://*.reddit.com/*"
+        "*://*.reddit.com/*",
+        "*://*.google.com/*"
     ],
 
     "background": {
