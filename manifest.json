@@ -1,0 +1,19 @@
+{
+    "description": "Redirects youtube / reddit requests to open source frontends",
+    "manifest_version": 2,
+    "name": "simpleRedirect",
+    "version": "2.0",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://youtu.be/*",
+        "*://*.youtube.com/*",
+        "*://*.youtube-nocookie.com/*",
+        "*://*.reddit.com/*"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
