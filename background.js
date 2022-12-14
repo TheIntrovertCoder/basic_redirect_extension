@@ -31,7 +31,7 @@ browser().webRequest.onBeforeRequest.addListener(
                 ),
             };
 
-        if (hostname === "www.google.com")
+        if (hostname === "www.google.com" || hostname === "google.com")
             return {
                 redirectUrl: details.url.replace(hostname, "search.brave.com"),
             };
