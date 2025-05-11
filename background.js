@@ -27,7 +27,7 @@ browser().webRequest.onBeforeRequest.addListener(
             return {
                 redirectUrl: details.url.replace(
                     hostname,
-                    "libreddit.spike.codes"
+                    "https://red.artemislena.eu/"
                 ),
             };
 
