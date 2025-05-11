@@ -27,7 +27,7 @@ browser().webRequest.onBeforeRequest.addListener(
             return {
                 redirectUrl: details.url.replace(
                     hostname,
-                    "https://red.artemislena.eu/"
+                    "red.artemislena.eu/"
                 ),
             };
 
