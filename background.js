@@ -18,7 +18,7 @@ browser().webRequest.onBeforeRequest.addListener(
                 return {
                     redirectUrl: details.url.replace(
                         hostname,
-                        "piped.kavin.rocks"
+                        "inv.nadeko.net"
                     ),
                 };
         }
