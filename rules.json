@@ -5,7 +5,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "transform": { "scheme": "https", "host": "piped.kavin.rocks" }
+                "transform": { "scheme": "https", "host": "inv.nadeko.net" }
             }
         },
         "condition": {
@@ -19,7 +19,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "transform": { "scheme": "https", "host": "piped.kavin.rocks" }
+                "transform": { "scheme": "https", "host": "inv.nadeko.net" }
             }
         },
         "condition": {
