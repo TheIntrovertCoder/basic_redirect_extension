@@ -27,7 +27,7 @@ browser().webRequest.onBeforeRequest.addListener(
             return {
                 redirectUrl: details.url.replace(
                     hostname,
-                    "red.artemislena.eu/"
+                    "redlib.nadeko.net"
                 ),
             };
 
