@@ -35,7 +35,7 @@
             "redirect": {
                 "transform": {
                     "scheme": "https",
-                    "host": "red.artemislena.eu"
+                    "host": "redlib.nadeko.net"
                 }
             }
         },
